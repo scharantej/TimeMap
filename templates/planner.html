@@ -1,0 +1,9 @@
+
+
+<h1>Your Plan:</h1>
+<ul>
+{% for task in tasks %}
+<li>{{ task }}: {{ time_slots[loop.index] }}</li>
+{% endfor %}
+</ul>
+
